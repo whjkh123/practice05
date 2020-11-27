@@ -31,7 +31,7 @@ public class AccountApp {
                 
                 case 2:
                     System.out.print("출금액>");
-                    money= sc.nextInt();
+					money = sc.nextInt();
                     account.withdraw(money);
                     break;
                     
